@@ -1,0 +1,13 @@
+<section class="catalog">
+  <h2 class="catalog__backogound-title">Каталог</h2>
+  <h3 class="catalog__title">Каталог продукции</h3>
+  <ul class="catalog__upper-container">
+    {{#each catalog}}
+    <li class="catalog__block">
+      <img src="{{this.img}}" alt="картинка" class="catalog__block-img">
+      <h4 class="catalog__block-title">{{this.title}}</h4>
+      <p class="catalog__block-text">{{this.text}}</p>
+    </li>
+    {{/each}}
+  </ul>
+</section>
