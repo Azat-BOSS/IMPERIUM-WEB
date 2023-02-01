@@ -42,6 +42,15 @@ body {
   opacity: 0.05;
   top: 5rem;
 }
+.title__third {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 26px;
+  text-transform: uppercase;
+  color: #052e4c;
+}
 /* swiper */
 .swiper__button-prev {
   width: 3rem;

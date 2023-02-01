@@ -10,7 +10,7 @@ console.log(introPag)
 const slidingIntroSwiper = () => {
   Swiper.use([Navigation, Pagination])
 
-  new Swiper(".intro__swiper", {
+  new Swiper(introSwiper, {
     navigation: {
       nextEl: introNextEl,
       prevEl: introPrevEl,

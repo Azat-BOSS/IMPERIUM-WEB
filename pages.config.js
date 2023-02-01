@@ -1,7 +1,7 @@
-import { headerArr } from "./src/utils/data";
+import { headerArr } from "./src/utils/dataHome";
 
 const pagesConfig = {
-  ...headerArr
+  ...headerArr,
 }
 
 export default pagesConfig

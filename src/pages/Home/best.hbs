@@ -1,0 +1,44 @@
+<section class="best">
+  <div class="best__upper">
+    <h3 class="best__title title__third">Лучшие предложения</h3>
+
+    <div class="best__swiper-nav">
+      <img alt="кнопка обратно" src="/assets/images/icons/prevButton.svg" class="best__button-prev swiper__button-prev"/>
+      <p class="best__pagination swiper__pagination"></p>
+      <img alt="кнопка вперед" src="/assets/images/icons/nextButton.svg" class="best__button-next swiper__button-next"/>
+    </div>
+  </div>
+
+  <div class="best__container">
+    <div class="best__wrapper swiper-wrapper">
+      {{#each bestArr}}
+      <div class="swiper-slide">
+        <div class="best__cart">
+          <div class="best__cart-upper">
+            <img src="{{this.img}}" alt="" class="best__cart-img">
+            <div class="best__cart-dis">
+              <p class="best__cart-discount">{{this.discount}}</p>
+            </div>
+          </div>
+          <div class="best__cart-lower">
+            <p class="best__cart-name text">{{this.title}}</p>
+            <div class="best__cart-info">
+              <span class="best__cart-price">от 
+                <h3 class="cart__price">{{this.price}}</h3>
+                <h3 class="cart__old-price">{{this.oldPrice}}</h3>
+              </span>
+            </div>
+            <div class="best__cart-button">
+              <button class="best__cart-apply button-white ">оформить заявку</button>
+              <button class="best__cart-buy">
+                <img src="/assets/images/icons/cartBasket.svg" alt="иконка">
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+
+</section>

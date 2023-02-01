@@ -1,0 +1,127 @@
+.best {
+  width: 100%;
+  margin-top: 13.6rem;
+}
+.best__upper {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 8rem;
+  margin-right: 16rem;
+}
+.best__swiper-nav {
+  display: flex;
+  align-items: center;
+}
+.best__container {
+  display: flex;
+  overflow: hidden;
+  margin-top: 4rem;
+  margin-left: 8rem;
+  margin-right: 16rem;
+}
+.best__cart {
+  width: 22.4rem;
+  height: 48.3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  padding: 1.4rem;
+  transition: 0.4s ease;
+}
+.best__cart:hover {
+  background: #e3f6f572;
+}
+.best__cart-img {
+  width: 22.4rem;
+  height: 27.8rem;
+}
+.best__cart-discount {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.3rem;
+  text-align: center;
+  color: #b84c74;
+}
+
+.best__cart-dis {
+  top: 2.7rem;
+  right: 2rem;
+  width: 5.2rem;
+  height: 5.2rem;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.best__cart-lower {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 2rem;
+}
+.best__cart-name {
+  max-width: 20.7rem;
+  text-align: left;
+}
+.best__cart-info {
+  font-family: "Cormorant Infant";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #052e4c;
+}
+.best__cart-price {
+  display: flex;
+  align-items: center;
+  column-gap: 1.2rem;
+}
+.cart__price {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: #052e4c;
+}
+.cart__old-price {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 3.2rem;
+  color: #052e4c32;
+  position: relative;
+}
+.cart__old-price::after {
+  content: "";
+  display: block;
+  position: absolute;
+  border: 1px solid #b84c74;
+  transform: rotate(-29.22deg);
+  width: 6.7rem;
+  opacity: 1;
+  top: 1.2rem;
+}
+.best__cart-button {
+  display: flex;
+  align-items: center;
+  column-gap: 1.6rem;
+}
+.best__cart-apply {
+  width: 16rem;
+  height: 4rem;
+  border: 1px solid #052e4c;
+  transition: 0.4s ease;
+}
+.best__cart-apply:hover {
+  background-color: #052e4c;
+  color: white;
+}
+.best__cart-buy {
+  width: 3.7rem;
+  height: 2.1rem;
+  margin-bottom: .7rem;
+}
