@@ -1,0 +1,72 @@
+.header {
+  height: 100vh;
+  background: #f2f6f7;
+  width: 8rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 40;
+}
+.header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3.6rem 0;
+}
+
+.header__container-upper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header__logo {
+  width: 3rem;
+  height: 3rem;
+}
+.header__button {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+  margin-top: 3rem;
+}
+.header__burger-img {
+  width: inherit;
+  height: inherit;
+}
+.header__block-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 1rem;
+  row-gap: 1.5rem;
+  width: 100%;
+  margin-top: 3rem;
+}
+.header__block {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  transition: .4s ease;
+}
+
+.header__block:hover {
+  transform: scale(1.1);
+}
+
+.header__block-img {
+  width: inherit;
+  height: inherit;
+}
+
+.header__button-search {
+  width: 3rem;
+  height: 3rem;
+  margin-right: 1rem;
+  margin-top: 10rem;
+}
+.header__img-search {
+  width: inherit;
+  height: inherit;
+}

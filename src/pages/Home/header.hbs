@@ -1,0 +1,20 @@
+<header class="header">
+  <aside class="header__container">
+    <div class="header__container-upper">
+    <img src="/assets/images/icons/logo.svg" alt="логотип" class="header__logo">
+    <button class="header__button">
+      <img src="/assets/images/icons/burger.svg" alt="бургер меню" class="header__burger-img">
+    </button>
+    </div>
+    <ul class="header__block-info">
+      {{#each headerArr}}
+      <button class="header__block">
+        <img src="{{this.img}}" alt="иконка" class="header__block-img">
+      </button>
+      {{/each}}
+    </ul>
+    <button class="header__button-search">
+      <img src="/assets/images/icons/searchButton.svg" alt="иконка" class="header__img-search">
+    </button>
+  </aside>
+</header>
