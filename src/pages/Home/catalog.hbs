@@ -1,13 +1,33 @@
 <section class="catalog">
   <h2 class="catalog__backogound-title">Каталог</h2>
-  <h3 class="catalog__title">Каталог продукции</h3>
+  <h3 class="catalog__title title__third">Каталог продукции</h3>
   <ul class="catalog__upper-container">
     {{#each catalog}}
     <li class="catalog__block">
       <img src="{{this.img}}" alt="картинка" class="catalog__block-img">
-      <h4 class="catalog__block-title">{{this.title}}</h4>
-      <p class="catalog__block-text">{{this.text}}</p>
+      <div class="catalog__block-info">
+        <h4 class="catalog__block-title title-img">{{this.title}}</h4>
+        <p class="catalog__block-text text">{{this.text}}</p>
+      </div>
     </li>
     {{/each}}
+  </ul>
+  <ul class="catalog__lower-container">
+    <div class="catalog__lower-items">
+      {{#each catalogLow}}
+      <li class="catalog__block-lower">
+        <img src="{{this.img}}" alt="картинка" class="block__lower-img">
+        <h5 class="catalog__lower-title">{{this.title}}</h5>
+        <p class="catalog__lower-price">{{this.price}}</p>
+      </li>
+      {{/each}}
+    </div>
+    <div class="catalog__lower-calc">
+      <h4 class="catalog__calc-title">Не смогли подобрать что-то конкретное?</h4>
+      <p class="catalog__calc-text">С помощью онлайн-калькулятора
+      Вы узнаете стоимость подобранной Вами солнцезащиты
+      </p>
+      <button class="catalog__calc-button white-button">калькулятор солнцезащиты</button>
+    </div>
   </ul>
 </section>

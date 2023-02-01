@@ -52,35 +52,35 @@ export const headerArr = {
     ],
     bestArr: [{
       img: "/assets/images/cartImage.png",
-      discount: "-10%",
+      discount: "-15%",
       title: "Вертикальные жалюзи «Lorem»",
       price: "1200₽",
       oldPrice: "1000₽"
     },
     {
       img: "/assets/images/cartImage.png",
-      discount: "-10%",
+      discount: "-13%",
       title: "Вертикальные жалюзи «Lorem».",
       price: "1200₽",
       oldPrice: "1000₽"
     },
     {
       img: "/assets/images/cartImage.png",
-      discount: "-10%",
+      discount: "-11%",
       title: "Вертикальные жалюзи «Lorem»",
       price: "8000₽",
       oldPrice: "10099₽"
     },
     {
       img: "/assets/images/cartImage.png",
-      discount: "-10%",
+      discount: "-1%",
       title: "Вертикальные жалюзи «Lorem»",
       price: "1200",
       oldPrice: "1000"
     },
     {
       img: "/assets/images/cartImage.png",
-      discount: "-10%",
+      discount: "-19%",
       title: "Вертикальные жалюзи «Lorem»",
       price: "1200",
       oldPrice: "1000"
@@ -101,6 +101,28 @@ export const headerArr = {
         title: "Lorem",
         text: "Каждый веб-разработчик знает, что такое текст-«рыба». Текст этот, несмотря на название, не имеет никакого отношения к обитателям водоемов"
       }
+    ],
+    catalogLow: [
+      {
+        img: "/assets/images/Curtains.png",
+        title: "Lorem",
+        price: "от 100₽",
+      },
+      {
+        img: "/assets/images/Curtains.png",
+        title: "Lorem",
+        price: "от 300₽",
+      },
+      {
+        img: "/assets/images/Curtains.png",
+        title: "Lorem",
+        price: "от 500₽",
+      },
+      {
+        img: "/assets/images/Curtains.png",
+        title: "Lorem",
+        price: "от 700₽",
+      },
     ]
   }
 }

@@ -1,0 +1,126 @@
+.catalog {
+  background: #052e4c;
+  width: 85%;
+  margin-top: 24rem;
+}
+.catalog__backogound-title {
+  position: absolute;
+}
+.catalog__title {
+  color: white;
+  padding-top: 11rem;
+  margin-left: 9.6rem;
+}
+.catalog__upper-container {
+  display: flex;
+  width: inherit;
+  margin-left: 9.6rem;
+  margin-top: 3.2rem;
+}
+.catalog__block {
+  width: 36.9rem;
+  height: 49.2rem;
+  position: relative;
+}
+.catalog__block-img {
+  width: 35rem;
+  height: 49.2rem;
+}
+.catalog__block-title {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.catalog__block-text {
+  color: white;
+  font-size: 1.3rem;
+  max-width: 28.7rem;
+  margin-top: 0.8rem;
+}
+
+.catalog__block-info {
+  position: absolute;
+  bottom: 3.3rem;
+  left: 4.4rem;
+}
+
+.catalog__lower-container {
+  display: flex;
+}
+.catalog__lower-items {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 70rem;
+  margin-left: 9.6rem;
+  background: #f2f6f7;
+  height: 25.2rem;
+  align-items: center;
+  justify-items: center;
+}
+.catalog__lower-title {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #052e4c;
+  margin-top: 0.9rem;
+}
+
+.block__lower-img {
+  width: 14.8rem;
+  height: 9.6rem;
+}
+.catalog__lower-price {
+  font-family: "PT Sans";
+  font-style: italic;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #052e4c;
+  margin-top: 0.9rem;
+}
+.catalog__lower-calc {
+  width: 35rem;
+  height: 25.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #417A82;
+}
+.catalog__calc-title {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.6rem;
+  color: #ffffff;
+}
+.catalog__calc-text {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #ffffff;
+  max-width: 29rem;
+  margin-top: .8rem;
+}
+.catalog__calc-button {
+  width: 23.6rem;
+  height: 4rem;
+  background-color: white;
+  margin-top: 2.4rem;
+  margin-right: 5.2rem;
+  transition: .4s ease;
+}
+
+.catalog__calc-button:hover {
+  color: white;
+  background-color: black;
+}
