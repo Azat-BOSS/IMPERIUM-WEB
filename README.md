@@ -6,14 +6,14 @@ IMPERIUM WEB PROJECT
 ## Библиотеки
 - Swiper - библиотека для слайдеров
 
-## Стэк {
+## Стэк
 - HTML | HBS -
 - CSS3
 - JavaScript (es6)
 - Vite
 
 ## как скачать 
-.Zip или git clone ...
+.Zip или git clone git@github.com:Azat-BOSS/IMPERIUM-WEB.git
 
 ## Зависимости
 ```
@@ -22,7 +22,7 @@ yarn install
 
 ## Режим разработки
 ```
-yarn run build
+yarn run dev
 ```
 
 ## Запустить сборку
