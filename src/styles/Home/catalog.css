@@ -2,6 +2,7 @@
   background: #052e4c;
   width: 85%;
   margin-top: 24rem;
+  position: relative;
 }
 .catalog__backogound-title {
   position: absolute;
@@ -101,6 +102,11 @@
   font-weight: 700;
   font-size: 1.6rem;
   color: #ffffff;
+}
+.catalog__background-title {
+  position: absolute;
+  top: -7rem;
+  left: 8rem;
 }
 .catalog__calc-text {
   font-family: "PT Sans";
