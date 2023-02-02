@@ -1,0 +1,26 @@
+<section class="service">
+  <h2 class="service__title-background title__background">Услуги</h2>
+  <div class="service__upper">
+    <h3 class="service__title title__third">Услуги</h3>
+    <div class="service__swiper-nav">
+      <img alt="кнопка обратно" src="/assets/images/icons/prevButton.svg" class="service__button-prev swiper__button-prev"/>
+      <p class="service__pagination swiper__pagination"></p>
+      <img alt="кнопка вперед" src="/assets/images/icons/nextButton.svg" class="service__button-next swiper__button-next"/>
+    </div>
+  </div>
+  <div class="service__container">
+    <div class="swiper-wrapper">
+     {{#each service}}
+      <div class="service__slide swiper-slide">
+        <img src="{{this.img}}" alt="картинка" class="service__slide-img">
+        <h4 class="service__slide-title">{{this.title}}</h4>
+        <p class="service__slide-text">{{this.text}}</p>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+  <div class="service__lower-block">
+    <p class="service__text text">Оказываем услугу по всему Брянску!</p>
+    <button class="service__button white-button">Заказать замер</button>
+  </div>
+</section>

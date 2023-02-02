@@ -1,0 +1,76 @@
+.service {
+  width: 100%;
+  margin-top: 25.2rem;
+  position: relative;
+}
+.service__title-background {
+  color: #052E4C;
+  position: absolute;
+  top: -6rem;
+  right: 7.5rem;
+  z-index: -2;
+}
+.service__upper {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 8rem;
+  margin-right: 16rem;
+}
+.service__swiper-nav {
+  display: flex;
+  align-items: center;
+}
+.service__container {
+  display: flex;
+  overflow: hidden;
+  margin-top: 4rem;
+  margin-left: 8rem;
+  margin-right: 16rem;
+}
+.service__slide-img {
+  width: 35.3rem;
+  height: 19.6rem;
+  object-fit: cover;
+}
+.service__slide-title {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #052e4c;
+  margin-top: 3.2rem;
+}
+.service__slide-text {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #052e4c;
+  max-width: 35rem;
+  margin-top: 1.5rem;
+  line-height: 1.3;
+}
+.service__lower-block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6.5rem;
+}
+.service__text {
+  width: 100%;
+  text-align: center;
+}
+.service__button {
+  width: 16rem;
+  height: 4rem;
+  border: 1px solid #052E4C;
+  margin-top: 1.6rem;
+  transition: .4s ease;
+}
+.service__button:hover {
+  background-color: black;
+  color: white;
+}

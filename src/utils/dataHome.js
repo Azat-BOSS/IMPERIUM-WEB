@@ -123,6 +123,28 @@ export const headerArr = {
         title: "Lorem",
         price: "от 700₽",
       },
+    ],
+    service: [
+      {
+        img: "/assets/images/flower.png",
+        title: "Lorem",
+        text: "Каждый веб-разработчик знает, что такое текст-«рыба»"
+      },
+      {
+        img: "/assets/images/flower.png",
+        title: "Lorem",
+        text: "Каждый веб-разработчик знает, что такое текст-«рыба»"
+      },
+      {
+        img: "/assets/images/flower.png",
+        title: "Lorem",
+        text: "Каждый веб-разработчик знает, что такое текст-«рыба»"
+      },
+      {
+        img: "/assets/images/flower.png",
+        title: "Lorem",
+        text: "Каждый веб-разработчик знает, что такое текст-«рыба»"
+      },
     ]
   }
 }

@@ -13,4 +13,12 @@ document.addEventListener("DOMContentLoaded", () => {
     "best__button-prev",
     "best__pagination"
   )
+  slidingCommonSliders(
+    3,
+    31,
+    "service__container",
+    "service__button-next",
+    "service__button-prev",
+    "service__pagination"
+  )
 })

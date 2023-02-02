@@ -1,0 +1,63 @@
+.commerc {
+  width: 100%;
+  background: #417A82;
+  display: grid;
+  grid-template-columns: 7fr 1fr;
+  position: relative;
+  overflow: hidden;
+  margin-top: 13.2rem;
+}
+.commerc__container {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.commerc__block {
+  width: 100%;
+  position: relative;
+}
+.commerc__block-img {
+  width: inherit;
+  height: inherit;
+}
+.commerc__block-wrap {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 30.1rem;
+}
+.commerc__block-title {
+  font-family: 'Cormorant';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 4rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.commerc__block-text {
+  color: white;
+  text-align: center;
+  margin-top: 2.4rem;
+}
+.commerc__block-button {
+  color: white;
+  width: 22.4rem;
+  height: 4rem;
+  margin-top: 4rem;
+  border: 1px solid white;
+  transition: .4s ease;
+}
+.commerc__block-button:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+.commerc__strip {
+  width: 100%;
+  background: #052E4C;
+}
