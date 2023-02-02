@@ -1,0 +1,57 @@
+.blog {
+  width: 92.5%;
+  border: 1px solid black;
+  height: 38rem;
+  display: flex;
+  margin-top: 16.1rem;
+  overflow: hidden;
+}
+.blog__block {
+  display: flex;
+}
+.blog__block_one {
+  width: 38.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.blog__title {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6.2rem;
+  color: #052e4c;
+  margin-left: 9.5rem;
+}
+.blog__link {
+  color: #417A82;
+  margin-top: .8rem;
+  text-align: start;
+  margin-left: 10rem;
+  text-decoration: none;
+}
+.blog__text {
+  margin-top: 2.4rem;
+  text-align: start;
+  margin-left: 10rem;
+}
+.blog__block_two {
+  position: relative;
+}
+.blog__block-container {
+  height: 38rem;
+  display: flex;
+}
+.blog__block-img {
+  flex: 1; 
+  transition: .4s ease;
+  overflow: hidden;
+  min-height: 0;
+}
+.blog__block-img:hover {
+  flex: 2.5;
+}
+.blog__img {
+  width: 100%;
+  height: 100%;
+}

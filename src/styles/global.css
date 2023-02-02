@@ -2,6 +2,9 @@ html {
   font-size: 0.7vw;
 }
 body {
+  margin: 0;
+}
+main {
   margin-left: 8rem;
 }
 .button-white {
@@ -47,7 +50,6 @@ body {
   font-style: normal;
   font-weight: 400;
   font-size: 2rem;
-  line-height: 26px;
   text-transform: uppercase;
   color: #052e4c;
 }

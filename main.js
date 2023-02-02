@@ -2,9 +2,11 @@ import "swiper/css/bundle"
 
 import { slidingIntroSwiper } from "./src/components/intro"
 import { slidingCommonSliders } from "./src/components/common"
+import { slidingSharesSlides } from "./src/components/shares"
 
 document.addEventListener("DOMContentLoaded", () => {
   slidingIntroSwiper()
+  slidingSharesSlides()
   slidingCommonSliders(
     4,
     55,

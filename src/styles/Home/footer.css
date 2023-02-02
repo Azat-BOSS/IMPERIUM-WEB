@@ -1,0 +1,145 @@
+.footer {
+  width: 100%;
+  background: #262626;
+  color: white;
+  margin-top: 16rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer__container {
+  padding: 0 16rem;
+  display: flex;
+  padding-top: 4.8rem;
+  padding-bottom: 2.4rem;
+}
+.footer__block {
+  display: flex;
+  flex-direction: column;
+}
+.footer__block:nth-child(1) {
+  margin-right: 10rem;
+  row-gap: 1rem;
+}
+.footer__block:nth-child(2) {
+  margin-right: 10rem;
+  row-gap: 1rem;
+}
+.footer__block:nth-child(3) {
+  flex-direction: column;
+  margin-right: 16.1rem;
+  row-gap: 1rem;
+}
+.footer__link {
+  color: white;
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #ffffff;
+  text-decoration: none;
+}
+.footer__logo {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.3rem;
+  text-align: center;
+  color: #ffffff;
+}
+.footer__address {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 2.6rem;
+}
+.footer__time-work {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  text-align: center;
+  color: #ffffff;
+}
+.footer__time-mode {
+  margin-top: 2.2rem;
+}
+.footer__number {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #ffffff;
+}
+.footer__button {
+}
+.footer__block-number {
+  margin-top: 2.8rem;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 2.2rem;
+}
+.white-button {
+  width: 23.6rem;
+  height: 4rem;
+  color: white;
+  border: 1px solid #ffffff;
+  transition: 0.4s ease;
+}
+.white-button:hover {
+  background-color: white;
+  color: black;
+}
+.footer__email {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #ffffff;
+  margin-top: 6.1rem;
+  max-width: 5rem;
+}
+.footer__link-nav {
+  display: flex;
+  margin-top: 2.4rem;
+  column-gap: 1.4rem;
+}
+.footer__link-social {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #ffffff;
+  transition: 0.4s ease;
+  text-decoration: none;
+}
+
+.footer__link-social:hover {
+  color: #417a82;
+}
+.footer__bottom {
+  max-width: 119.1rem;
+  width: 100%;
+  border-top: 1px solid hsla(0, 0%, 100%, 0.294);
+  padding-top: 1.6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 5.7rem;
+}
+.footer__text-bottom {
+  font-family: "PT Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #ffffff;
+  opacity: 0.5;
+  text-decoration: none;
+}
+.footer__link-bottom {
+  display: flex;
+  column-gap: 1.6rem;
+}

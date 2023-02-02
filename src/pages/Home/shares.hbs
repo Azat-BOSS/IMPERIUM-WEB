@@ -1,0 +1,38 @@
+<section class="shares">
+  <h2 class="shares__title-backoground title__background">Акции</h2>
+  <div class="shares__container">
+    <div class="shares__block shares__block_one">
+      <div class="shares__swiper swiper">
+        <div class="shares__swiper-wrapper swiper-wrapper">
+          {{#each service}}
+          <div class="swiper-slide shares__slide">
+            <img src="{{this.img}}" alt="картинка" class="shares__slide-img">
+          </div>
+          {{/each}}
+        </div>
+      </div>
+      <div class="shares__block-bottom">
+        <h3 class="shares__title-bottom">Для коммерческих помещений</h3>
+        <div class="swiper__swiper-nav">
+          <img alt="кнопка обратно" src="/assets/images/icons/prevNextButton.svg" class="shares__button-prev swiper__button-prev"/>
+          <p class="swiper__pagination swiper__pagination"></p>
+          <img alt="кнопка вперед" src="/assets/images/icons/prevWhiteButton.svg" class="shares__button-next swiper__button-next"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="shares__block shares__block_two">
+      <h2 class="shares__block-title">Получай бонусы и скидки</h2>
+      <ul class="shares__block-info">
+        <li class="shares__block-li">
+          <img src="/assets/images/icons/present.svg" alt="иконка" class="shares__block-icon">
+          <p class="shares__block-text text">Специалисты сервисного центра обладают уникальным знаниями в обслуживании американских автомобилей. </p>
+        </li>
+          <li class="shares__block-li">
+          <img src="/assets/images/icons/coin.svg" alt="иконка" class="shares__block-icon">
+          <p class="shares__block-text text">Специалисты сервисного центра обладают уникальным знаниями в обслуживании американских автомобилей. </p>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>

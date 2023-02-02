@@ -1,0 +1,76 @@
+.shares {
+  width: 100%;
+  background: #f2f6f7;
+  position: relative;
+  height: 60.4rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.shares__title-backoground {
+  color: black;
+  position: absolute;
+  left: 10rem;
+}
+.shares__container {
+  display: grid;
+  grid-template-columns: repeat(2, 54.4rem);
+  column-gap: 4.8rem;
+}
+.shares__block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.shares__swiper {
+  width: 54.4rem;
+}
+.shares__slide-img {
+  width: 54.4rem;
+  height: 32.4rem;
+}
+.shares__block-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 48.5rem;
+  height: 13.2rem;
+  background: #052e4c;
+  padding: 0 3rem;
+}
+.shares__title-bottom {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.swiper__swiper-nav {
+  display: flex;
+  align-items: center;
+}
+.shares__block-title {
+  font-family: "Cormorant";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 6.2rem;
+  color: #052e4c;
+}
+.shares__block-li {
+  display: flex;
+}
+.shares__block-icon {
+  margin-right: 3.2rem;
+}
+.shares__block_two {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+}
+.shares__block-text {
+  max-width: 20em;
+  margin-top: 2rem;
+}

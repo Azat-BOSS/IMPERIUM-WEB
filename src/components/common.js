@@ -13,7 +13,6 @@ const slidingCommonSliders = (
   const swiperContainer = document.querySelector(`.${swiperCont}`)
   const nextBtn = document.querySelector(`.${btnNext}`)
   const prevBtn = document.querySelector(`.${btnPrev}`)
-
   const swiperPag = document.querySelector(`.${pagin}`) 
 
   new Swiper(swiperContainer, {
